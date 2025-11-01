@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(198, 214, 249);
+    font-family: Arial;
+}
+
+.all {
+    height: 50vh;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.div-one {
+    width: 50%;
+    padding: 15px;
+}
+.div-two {
+    width: 50%;
+    padding: 15px;
+    background-color: rgb(102, 125, 255);
+    border-radius: 100px 15px 15px 100px;
+    margin: 10px;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(234, 232, 232);
+    border: rgb(234, 232, 232);
+}
+
+.div-one-btn {
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    color: white;
+    background-color: rgb(102, 125, 255);
+    border-color: rgb(102, 125, 255);
+    font-size: medium;
+    font-weight: bold;
+}
+
+.div-one-btn:hover {
+    transition: .3s;
+    background-color: rgb(139, 156, 250);
+    color: rgb(255, 255, 255);
+}
+.text {
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+.div-two-btn {
+    border-radius: 5px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    border-color: white;
+    width: 150px;
+    color: white;
+    background-color: rgb(102, 125, 255);
+}
+.div-two-btn:hover {
+    transition: .3s;
+    background-color: white;
+    color: rgb(102, 125, 255);
+
+}
